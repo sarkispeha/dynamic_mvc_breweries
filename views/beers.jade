@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h1 #{bb.name}
+	em #{bb.description}
+
+
+	a(href='/beers/#{bb.next}')
+		button.next-page Next Page

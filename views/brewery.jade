@@ -1,0 +1,9 @@
+
+extends layout
+
+block content
+	h1 #{breweries.name}
+
+
+	a(href='/brewery/#{breweries.next}')
+		button.next-page Next Page
